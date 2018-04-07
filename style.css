@@ -1,0 +1,181 @@
+/*
+
+
+    font-family: 'Lemonada', cursive;
+
+    font-family: 'Londrina Sketch', cursive;
+
+    font-family: 'VT323', monospace;
+
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Fruktur', cursive;
+
+font-family: 'Nanum Brush Script', cursive;
+
+font-family: 'Crafty Girls', cursive;
+
+font-family: 'Schoolbell', cursive;
+
+font-family: 'Reenie Beanie', cursive;
+
+Some fonts for the site
+Styling the login page now
+
+*/
+#headLogin {
+  text-align:center;
+  font-family:cursive;
+  font-weight:bold;
+  font-size:5vw;
+  font-family: 'Londrina Sketch', cursive;
+}
+.page {
+  padding-top:14vh;
+}
+#loginForm {
+  padding-top:4vh;
+  padding-bottom:4vh;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 12px;
+  background-color:white;
+  width:50%;
+  text-align:center;
+  background-color:#c8fc51;
+  box-shadow:4px 4px 8px 4px rgba(0,0,0,0.2);
+}
+.page {
+  background-image: url(38.png);
+  background-repeat: no-repeat;
+  min-height:100vh;
+}
+.registerLink {
+  font-size:5vw;
+  font-family: 'Londrina Sketch', cursive;
+  font-weight:900;
+}
+#signUpLink {
+  color:red;
+}
+#headingScribble {
+  font-family: 'Permanent Marker', cursive;
+  font-size:10vw;
+}
+.success {
+  text-align: center;
+  color:red;
+}
+input[type="submit"] {
+  padding: 1.5vh 2.5vw;
+  font-size: 2vh;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF90;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+input[type="submit"]:hover {
+  background-color:#3e8e41;
+}
+input[type="submit"]:active {
+  /*  Introducing the click effect on the button*/
+  background-color: #4CAF90;
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
+/*  End of styling the login page*/
+/*  Styling the sign up form*/
+#register-form{
+  text-align: center;
+}
+/*  End of styling up the sign up page*/
+/*  Styling up the main profile page*/
+.profile_page {
+  font-size:5vh;
+  font-family: 'Pacifico', cursive;
+
+}
+.profile {
+  background-color: #1abc9c;
+}
+#displayNotes{
+  background-color: #474e5d;
+}
+#createNote {
+  text-align: center;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size:5vw;
+}
+.welcome {
+  text-align: left;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size:10vh;
+  margin-top:6vh;
+}
+#title {
+  font-family: 'Crafty Girls', cursive;
+  font-size:3vh;
+}
+#content {
+  min-height:24vh;
+  font-size:4vh;
+  font-family: 'Crafty Girls', cursive;
+
+}
+#createForm {
+  clear:both;
+
+}
+/* Logout button: actually is a hyperlink making it look like a button */
+#nav-logout {
+  text-decoration: none;
+  background-color:#d9534f;
+  margin:0.4vh;
+  padding:1 3vh 1 3vh;
+  color:white;
+  font-weight:600;
+  border-radius:4px;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size:1.5vw;
+
+}
+#nav-logout:hover {
+  background-color:red;
+}
+.submitBtn {
+  padding-left:4vh;
+  padding-right:4vh;
+  font-size:2.5vh;
+  margin-bottom:1vw;
+    font-family: 'Nanum Brush Script', cursive;
+
+}
+.notes {
+  padding:1vw;
+  margin-right:0.5vw;
+  margin-left:10vw;
+  margin-bottom:2vw;
+
+
+  font-family: 'Nanum Brush Script', cursive;
+  font-size:3vw;
+  border-radius: 12px;
+  box-shadow:4px 8px 16px 8px rgba(0,0,0,0.2);
+  height:20vw;
+  overflow: auto;
+}
+.notes button {
+  font-size:2vh;
+}
+#noteSectionHeading {
+  text-align:center;
+  font-size:5vw;
+  color:white;
+  font-family: 'Nanum Brush Script', cursive;
+
+}
