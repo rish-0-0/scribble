@@ -1,0 +1,3 @@
+See, if the create database and create table commands don't work
+Just connect to this ip and if my laptop is on while you connect and my apache server is running you can access my note taker.
+10.42.0.1/copieded/index.php
