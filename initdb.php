@@ -19,9 +19,8 @@ $create2 = "CREATE TABLE IF NOT EXISTS notes.users (
   `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   `username` varchar(64) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `remember_token` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1";
+  `email` varchar(255) NOT NULL
+  ) ENGINE=InnoDB DEFAULT CHARSET=latin1";
 
 $conn = new mysqli($dbhost,$dbuser,$dbpassword);
 
